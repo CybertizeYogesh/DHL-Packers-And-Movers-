@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "10 Tips for Household Shifting Services | Speed Ex Blog",
-  description: "Planning a move? Read our 10 essential tips for secure household shifting services in Ahmedabad, written by the best packers and movers.",
+  title: "10 Tips for Household Shifting Services | DHL Packers And Movers Blog",
+  description: "Planning a move? Read our 10 essential tips for secure household shifting services in Hyderabad, written by the best packers and movers.",
 };
 
 export default function Page() {
@@ -55,17 +55,14 @@ export default function Page() {
                             {/* Sidebar CTA Content Start */}
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
-                                <p>B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</p>
-                                <p><a href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></p>
+                                <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
+                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 
                             {/* Sidebar CTA Button Start */}
                             <div className="sidebar-cta-btn" style={{display: 'flex', flexDirection: 'column', gap: '5px'}}>
-                                <a href="tel:9624644006">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9624644006</a>
-                                <a href="tel:9211206101">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9211206101</a>
+                                <a href="tel:9390891355"><img src="/images/icon-phone.svg" alt="" />+91 93908 91355</a>
                             </div>
                             {/* Sidebar CTA Button End */}
                         </div>
@@ -86,7 +83,7 @@ export default function Page() {
                             </div>
 
                             
-<p className="wow fadeInUp" style={{lineHeight: '1.8', marginBottom: '20px', fontSize: '16px', color: '#555'}}>Moving to a new home is a major milestone, but the logistics of sorting, packing, loading, and unpacking can quickly become overwhelming. At Speed Ex relocation packers and movers, we believe that proper planning is the key to a seamless relocation experience. By organizing your schedule and adopting smart packing strategies, you can transition into your new home stress-free.</p>
+<p className="wow fadeInUp" style={{lineHeight: '1.8', marginBottom: '20px', fontSize: '16px', color: '#555'}}>Moving to a new home is a major milestone, but the logistics of sorting, packing, loading, and unpacking can quickly become overwhelming. At DHL Packers And Movers, we believe that proper planning is the key to a seamless relocation experience. By organizing your schedule and adopting smart packing strategies, you can transition into your new home stress-free.</p>
 
 <p className="wow fadeInUp" style={{lineHeight: '1.8', marginBottom: '20px', fontSize: '16px', color: '#555'}}>Here are our top 10 essential tips for a smooth and hassle-free home relocation:</p>
 
@@ -100,7 +97,7 @@ export default function Page() {
     <li><strong>Secure Box Bottoms:</strong> Double-tape the bottom seams of all boxes to prevent them from breaking under weight.</li>
     <li><strong>Photograph Wire Configurations:</strong> Take photos of your TV, router, and computer cable connections before unplugging.</li>
     <li><strong>Defrost Your Refrigerator:</strong> Empty and defrost your fridge at least 24 hours prior to the moving day.</li>
-    <li><strong>Hire Professionals:</strong> Work with a trusted team like Speed Ex relocation packers and movers for insured transport and safety.</li>
+    <li><strong>Hire Professionals:</strong> Work with a trusted team like DHL Packers And Movers for insured transport and safety.</li>
 </ol>
 
                         </div>
@@ -113,7 +110,7 @@ export default function Page() {
 
 
     {/* Related Blogs Section Start */}
-    <div className="related-blogs" style={{padding: '70px 0 100px', background: '#f9f9f9', borderTop: '1px solid var(--divider-color)'}}>
+    <div className="related-blogs" style={{padding: '70px 0 100px', background: '#FFFBEA', borderTop: '1px solid var(--divider-color)'}}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 mb-5">

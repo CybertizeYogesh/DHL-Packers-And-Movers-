@@ -12,14 +12,14 @@ export default function Footer() {
               <div className="about-footer">
                 {/* Footer Logo Start */}
                 <div className="footer-logo">
-                  <img src="/global-logo.webp" alt="Speed Ex Relocation Logo" />
+                  <img src="/global-logo.webp" alt="DHL Packers And Movers Logo" />
                 </div>
                 {/* Footer Logo End */}
 
                 {/* Footer Contact Box Start */}
                 <div className="about-footer-content">
                   <p style={{ textAlign: "justify" }}>
-                    Speed Ex relocation packers and movers, located in Ahmedabad, offers reliable and professional packing and moving services across India. We specialize in home, office, and vehicle relocation with a focus on safety and timely delivery. Our experienced team uses quality packing materials and the latest techniques to ensure a hassle-free move. Customer satisfaction, transparency, and care are at the heart of everything we do, making us a trusted name in the industry.
+                    DHL Packers And Movers, located in Hyderabad, offers reliable and professional packing and moving services across India. We specialize in home, office, and vehicle relocation with a focus on safety and timely delivery. Our experienced team uses quality packing materials and the latest techniques to ensure a hassle-free move. Customer satisfaction, transparency, and care are at the heart of everything we do, making us a trusted name in the industry.
                   </p>
                 </div>
                 {/* Footer Contact Box End */}
@@ -54,7 +54,6 @@ export default function Footer() {
                   <li><Link href="/services/loading-and-unloading">Loading and Unloading</Link></li>
                   <li><Link href="/services/packing-and-unpacking-services">Packing & Unpacking</Link></li>
                   <li><Link href="/services/moving-services">Moving Services</Link></li>
-                  <li><Link href="/services/pet-relocation">Pet Relocation</Link></li>
                   <li><Link href="/services/car-transportation">Car Transportation</Link></li>
                   <li><Link href="/services/bike-transportation">Bike Transportation</Link></li>
                 </ul>
@@ -72,7 +71,7 @@ export default function Footer() {
                     <img src="/images/icon-location.svg" alt="Location Icon" />
                   </div>
                   <div className="footer-contact-content">
-                    <p>Ahmedabad Office: B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</p>
+                    <p>Hyderabad Office: 33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
                   </div>
                 </div>
                 {/* Footer Contact Item End */}
@@ -83,7 +82,7 @@ export default function Footer() {
                     <img src="/images/icon-mail.svg" alt="Mail Icon" />
                   </div>
                   <div className="footer-contact-content">
-                    <p><a href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></p>
+                    <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
                   </div>
                 </div>
                 {/* Footer Contact Item End */}
@@ -95,7 +94,7 @@ export default function Footer() {
                   </div>
                   <div className="footer-contact-content">
                     <p>
-                      <a href="tel:9624644006">+91 9624644006</a> / <a href="tel:9211206101">+91 9211206101</a>
+                      <a href="tel:9390891355" className="text-decoration-none">+91 93908 91355</a>
                     </p>
                   </div>
                 </div>
@@ -110,7 +109,7 @@ export default function Footer() {
                 {/* Footer Copyright Text Start */}
                 <div className="footer-copyright-text">
                   <p>
-                    Copyright © 2026 All Rights Reserved by <Link href="/" className="copyright-link">Speed Ex relocation packers and movers</Link> &nbsp; | &nbsp; Developed by <a href="https://cybertizegrowth.com/" target="_blank" rel="noopener noreferrer" className="copyright-link">Cybertize Growth</a>
+                    Copyright © 2026 All Rights Reserved by <Link href="/" className="copyright-link">DHL Packers And Movers</Link> &nbsp; | &nbsp; Developed by <a href="https://cybertizegrowth.com/" target="_blank" rel="noopener noreferrer" className="copyright-link">Cybertize Growth</a>
                   </p>
                 </div>
                 {/* Footer Copyright Text End */}
@@ -134,12 +133,12 @@ export default function Footer() {
 
       {/* Floating Action Buttons */}
       <div className="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=919624644006&source=&data=" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=919390891355&source=&data=" target="_blank" rel="noopener noreferrer">
           <i className="fa-brands fa-whatsapp"></i>
         </a>
       </div>
       <div className="call">
-        <a href="tel:9624644006">
+        <a href="tel:9390891355">
           <i className="fa-solid fa-phone"></i>
         </a>
       </div>

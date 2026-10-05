@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Office Moving Services Ahmedabad | Commercial Shifting Company",
-  description: "Minimize business downtime with Speed Ex office moving services in Ahmedabad. We offer commercial goods relocation, IT shifting, and logistics management.",
-  keywords: "office moving services, shifting company, relocation movers near me, packers and movers ahmedabad, transport logistics company",
+  title: "Office Moving Services Hyderabad | Commercial Shifting Company",
+  description: "Minimize business downtime with DHL Packers And Movers office moving services in Hyderabad. We offer commercial goods relocation, IT shifting, and logistics management.",
+  keywords: "office moving services, shifting company, relocation movers near me, packers and movers hyderabad, transport logistics company",
 };
 
 export default function Page() {
@@ -48,7 +48,6 @@ export default function Page() {
                                 <li><Link href="/services/loading-and-unloading">Loading and Unloading</Link></li>
                                 <li><Link href="/services/packing-and-unpacking-services">Packing and Unpacking Services</Link></li>
                                 <li><Link href="/services/moving-services">Moving Services</Link></li>
-                                <li><Link href="/services/pet-relocation">Pet Relocation</Link></li>
                                 <li><Link href="/services/car-transportation">Car Transportation</Link></li>
                                 <li><Link href="/services/bike-transportation">Bike Transportation</Link></li>
                             </ul>
@@ -60,17 +59,14 @@ export default function Page() {
                             {/* Sidebar CTA Content Start */}
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
-                                <p>B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</p>
-                                <p><a href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></p>
+                                <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
+                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 
                             {/* Sidebar CTA Button Start */}
                             <div className="sidebar-cta-btn" style={{display: 'flex', flexDirection: 'column', gap: '5px'}}>
-                                <a href="tel:9624644006">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9624644006</a>
-                                <a href="tel:9211206101">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9211206101</a>
+                                <a href="tel:9390891355"><img src="/images/icon-phone.svg" alt="" />+91 93908 91355</a>
                             </div>
                             {/* Sidebar CTA Button End */}
                         </div>
@@ -84,8 +80,8 @@ export default function Page() {
                     <div className="service-single-contemt">
                         {/* Service Entry Start */}
                         <div className="service-entry">
-                            <p className="wow fadeInUp">At Speed Ex relocation packers and movers, we know that relocating an office requires careful coordination and minimal disruption to your business operations. Our Office Goods Shifting Services are designed to deliver a seamless transition, whether you’re moving a small office or a large corporate space. We handle everything from packing your office assets to safe transportation and organized setup at the new location. Our team is trained in handling electronics, documents, furniture, and fragile equipment with professionalism and precision.</p>
-                            <p className="wow fadeInUp" data-wow-delay="0.2s">We ensure that your business doesn't lose productivity during the move. With efficient planning and execution, Speed Ex relocation packers and movers provide a stress-free relocation that gets your team back to work in no time.</p>
+                            <p className="wow fadeInUp">At DHL Packers And Movers, we know that relocating an office requires careful coordination and minimal disruption to your business operations. Our Office Goods Shifting Services are designed to deliver a seamless transition, whether you’re moving a small office or a large corporate space. We handle everything from packing your office assets to safe transportation and organized setup at the new location. Our team is trained in handling electronics, documents, furniture, and fragile equipment with professionalism and precision.</p>
+                            <p className="wow fadeInUp" data-wow-delay="0.2s">We ensure that your business doesn't lose productivity during the move. With efficient planning and execution, DHL Packers And Movers provide a stress-free relocation that gets your team back to work in no time.</p>
 
                             {/* Service Solution Box Start */}
                             <div className="service-solution-box">
@@ -316,7 +312,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!</p>
+                                                <p>Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -360,7 +356,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
+                                                <p>We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -404,7 +400,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!</p>
+                                                <p>Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!</p>
                                             </div>
                                         </div>
                                     </div>

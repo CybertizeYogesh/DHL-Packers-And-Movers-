@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Our Shifting & Logistics Gallery | Speed Ex Relocation Ahmedabad",
-  description: "Browse photos of our household shifting, vehicle moving services, dog pick up services, and office relocation operations in Ahmedabad.",
+  title: "Our Shifting & Logistics Gallery | DHL packers and movers hyderabad",
+  description: "Browse photos of our household shifting, vehicle moving services, dog pick up services, and office relocation operations in Hyderabad.",
 };
 
 export default function Page() {
@@ -193,7 +193,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!</p>
+                                                <p>Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -237,7 +237,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
+                                                <p>We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -281,7 +281,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!</p>
+                                                <p>Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!</p>
                                             </div>
                                         </div>
                                     </div>

@@ -26,7 +26,7 @@ export default function Home() {
                     <h1 className="text-anime-style-2" data-cursor="-opaque">
                       Effortless moving <span>experiences</span>
                     </h1>
-                    <p className="wow fadeInUp">Best Packers and Movers in Ahmedabad</p>
+                    <p className="wow fadeInUp">Best Packers and Movers in Hyderabad</p>
                   </div>
                   {/* Section Title End */}
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
               {/* About Us Image Start */}
               <div className="about-us-image">
                 <figure className="image-anime reveal">
-                  <img src="/images/about-image.webp" alt="About Speed Ex Relocation" />
+                  <img src="/images/about-image.webp" alt="About DHL Packers And Movers" />
                 </figure>
               </div>
               {/* About Us Image End */}
@@ -114,7 +114,7 @@ export default function Home() {
                     Trusted experts in <span>packers & movers</span>
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="0.2s">
-                    <strong>Speed Ex relocation packers and movers</strong> is the leading transport logistics company and shifting company in India. We pride ourselves on delivering seamless relocation experiences, specializing in household shifting services, office moving services, and vehicle moving services. With precision, care, and dedication, our team of relocation movers near me ensures your belongings reach their destination safely and on time.
+                    <strong>DHL Packers And Movers</strong> is the leading transport logistics company and shifting company in India. We pride ourselves on delivering seamless relocation experiences, specializing in household shifting services, office moving services, and vehicle moving services. With precision, care, and dedication, our team of relocation movers near me ensures your belongings reach their destination safely and on time.
                   </p>
                 </div>
                 {/* Section Title End */}
@@ -170,7 +170,7 @@ export default function Home() {
                     The driving force behind <span>our services</span>
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="0.2s">
-                    At Speed Ex relocation packers and movers, we believe moving should be exciting—not exhausting. Our approach blends strategic planning, experienced manpower, and a personal touch to turn every relocation into a positive experience.
+                    At DHL Packers And Movers, we believe moving should be exciting—not exhausting. Our approach blends strategic planning, experienced manpower, and a personal touch to turn every relocation into a positive experience.
                   </p>
                 </div>
                 {/* Section Title End */}
@@ -366,29 +366,6 @@ export default function Home() {
             <div className="col-lg-4">
               {/* Service Item Start */}
               <div className="service-item wow fadeInUp" data-wow-delay="1s">
-                <div className="icon-box">
-                  <img src="/services/pet-relocation.webp" alt="Pet Relocation" />
-                </div>
-                <div className="service-content">
-                  <h3>
-                    <Link href="/services/pet-relocation">Pet Relocation</Link>
-                  </h3>
-                  <p>
-                    Our Pet Relocation Services offer safe, comfortable, and stress-free transport for your beloved pets, with specialized temperature-controlled crates, constant monitoring, and expert care throughout the journey.
-                  </p>
-                </div>
-                <div className="service-btn">
-                  <Link href="/services/pet-relocation" className="readmore-btn">
-                    read more
-                  </Link>
-                </div>
-              </div>
-              {/* Service Item End */}
-            </div>
-
-            <div className="col-lg-4">
-              {/* Service Item Start */}
-              <div className="service-item wow fadeInUp" data-wow-delay="1.2s">
                 <div className="icon-box">
                   <img src="/services/car-transportation.webp" alt="Car Transportation" />
                 </div>
@@ -688,7 +665,7 @@ export default function Home() {
                         </div>
                         <div className="testimonial-content">
                           <p>
-                            Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!
+                            Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!
                           </p>
                         </div>
                       </div>
@@ -736,7 +713,7 @@ export default function Home() {
                         </div>
                         <div className="testimonial-content">
                           <p>
-                            We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.
+                            We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.
                           </p>
                         </div>
                       </div>
@@ -784,7 +761,7 @@ export default function Home() {
                         </div>
                         <div className="testimonial-content">
                           <p>
-                            Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!
+                            Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!
                           </p>
                         </div>
                       </div>

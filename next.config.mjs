@@ -27,7 +27,17 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/:service(household-goods-shifting|office-goods-shifting|loading-and-unloading|packing-and-unpacking-services|moving-services|pet-relocation|car-transportation|bike-transportation).aspx.html',
+        source: '/:service(pet-relocation|pet-relocation.aspx.html)',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/services/pet-relocation',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/:service(household-goods-shifting|office-goods-shifting|loading-and-unloading|packing-and-unpacking-services|moving-services|car-transportation|bike-transportation).aspx.html',
         destination: '/services/:service',
         permanent: true,
       },

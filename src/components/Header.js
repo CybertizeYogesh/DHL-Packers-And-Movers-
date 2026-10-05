@@ -5,24 +5,20 @@ export default function Header() {
     <>
       {/* Top Contact Header Start */}
       <div className="top-header py-2 text-white" style={{ backgroundColor: "var(--accent-color)" }}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12 text-center text-lg-start mb-2 mb-lg-0">
-              <div className="top-contact text-white">
-                <i className="fas fa-map-marker-alt me-2 text-white"></i>
-                <span className="text-white">B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</span>
-              </div>
+        <div className="container-fluid px-lg-5 px-3">
+          <div className="top-header-content d-flex align-items-center justify-content-lg-between justify-content-center flex-wrap flex-lg-nowrap">
+            <div className="top-contact-item top-contact-address d-flex align-items-center justify-content-center text-center text-lg-start">
+              <i className="fas fa-map-marker-alt me-2 text-white flex-shrink-0"></i>
+              <span className="text-white">33/2, Manikonda Rd, Shirdi Sai Nagar, Hyderabad, Telangana 500089</span>
             </div>
-            <div className="col-lg-3 col-md-6 text-center mb-2 mb-md-0">
-              <div className="top-contact text-white">
-                <i className="fas fa-phone-alt me-2 text-white"></i>
-                <a href="tel:9624644006" className="text-decoration-none text-white">+91 9624644006</a> / <a href="tel:9211206101" className="text-decoration-none text-white">+91 9211206101</a>
+            <div className="top-contact-group d-flex align-items-center justify-content-center flex-wrap flex-sm-nowrap">
+              <div className="top-contact-item d-flex align-items-center justify-content-center px-2">
+                <i className="fas fa-phone-alt me-2 text-white flex-shrink-0"></i>
+                <a href="tel:9390891355" className="text-decoration-none text-white text-nowrap">+91 93908 91355</a>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 text-center text-lg-end">
-              <div className="top-contact text-white">
-                <i className="fas fa-envelope me-2 text-white"></i>
-                <a href="mailto:speedexrelocation3@gmail.com" className="text-decoration-none text-white">speedexrelocation3@gmail.com</a>
+              <div className="top-contact-item d-flex align-items-center justify-content-center px-2">
+                <i className="fas fa-envelope me-2 text-white flex-shrink-0"></i>
+                <a href="mailto:info@durgahomelogisticsdomain.com" className="text-decoration-none text-white text-nowrap">info@durgahomelogisticsdomain.com</a>
               </div>
             </div>
           </div>
@@ -73,9 +69,6 @@ export default function Header() {
                           <Link className="nav-link" href="/services/moving-services">Moving Services</Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" href="/services/pet-relocation">Pet Relocation</Link>
-                        </li>
-                        <li className="nav-item">
                           <Link className="nav-link" href="/services/car-transportation">Car Transportation</Link>
                         </li>
                         <li className="nav-item">
@@ -112,6 +105,53 @@ export default function Header() {
         </div>
       </header>
       {/* Header End */}
+      {/* Services dropdown hover styling ensuring full visibility in both scrolled and static states */}
+      <style>{`
+        .main-menu ul.navbar-nav li.submenu ul,
+        .main-menu ul ul,
+        header.main-header .header-sticky.active .main-menu ul ul,
+        header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul {
+          background: #E5252A !important;
+          border-radius: 12px !important;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+          padding: 8px 0 !important;
+          min-width: 280px !important;
+          width: max-content !important;
+          z-index: 99999 !important;
+        }
+        .main-menu ul.navbar-nav li.submenu ul li a,
+        .main-menu ul ul li a,
+        header.main-header .header-sticky .main-menu ul ul li a,
+        header.main-header .header-sticky.active .main-menu ul ul li a,
+        header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul li a {
+          color: #FFFFFF !important;
+          font-size: 15px !important;
+          font-weight: 500 !important;
+          padding: 10px 22px !important;
+          display: block !important;
+          white-space: nowrap !important;
+          transition: all 0.2s ease-in-out !important;
+          background-color: transparent !important;
+          text-decoration: none !important;
+          border-left: 3px solid transparent !important;
+        }
+        .main-menu ul.navbar-nav li.submenu ul li a:hover,
+        .main-menu ul.navbar-nav li.submenu ul li a:focus,
+        .main-menu ul ul li a:hover,
+        .main-menu ul ul li a:focus,
+        header.main-header .header-sticky .main-menu ul ul li a:hover,
+        header.main-header .header-sticky .main-menu ul ul li a:focus,
+        header.main-header .header-sticky.active .main-menu ul ul li a:hover,
+        header.main-header .header-sticky.active .main-menu ul ul li a:focus,
+        header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul li a:hover,
+        header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul li a:focus {
+          color: #FFD000 !important;
+          background-color: rgba(0, 0, 0, 0.25) !important;
+          padding: 10px 22px 10px 25px !important;
+          border-left: 3px solid #FFD000 !important;
+          text-decoration: none !important;
+        }
+      `}</style>
     </>
   );
 }

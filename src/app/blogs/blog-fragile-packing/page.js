@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "How to Pack Fragile Items | Shifting Company Packing Tips",
-  description: "Learn how to pack delicate items safely for household shifting services near me. Pro packing guide by Speed Ex Packers and Movers.",
+  description: "Learn how to pack delicate items safely for household shifting services near me. Pro packing guide by DHL Packers And Movers Packers and Movers.",
 };
 
 export default function Page() {
@@ -55,17 +55,14 @@ export default function Page() {
                             {/* Sidebar CTA Content Start */}
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
-                                <p>B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</p>
-                                <p><a href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></p>
+                                <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
+                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 
                             {/* Sidebar CTA Button Start */}
                             <div className="sidebar-cta-btn" style={{display: 'flex', flexDirection: 'column', gap: '5px'}}>
-                                <a href="tel:9624644006">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9624644006</a>
-                                <a href="tel:9211206101">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9211206101</a>
+                                <a href="tel:9390891355"><img src="/images/icon-phone.svg" alt="" />+91 93908 91355</a>
                             </div>
                             {/* Sidebar CTA Button End */}
                         </div>
@@ -109,7 +106,7 @@ export default function Page() {
 
 
     {/* Related Blogs Section Start */}
-    <div className="related-blogs" style={{padding: '70px 0 100px', background: '#f9f9f9', borderTop: '1px solid var(--divider-color)'}}>
+    <div className="related-blogs" style={{padding: '70px 0 100px', background: '#FFFBEA', borderTop: '1px solid var(--divider-color)'}}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 mb-5">

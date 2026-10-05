@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Top Shifting Company in Ahmedabad | About Speed Ex Relocation",
-  description: "Learn about Speed Ex Relocation, the leading transport logistics and shifting company in Ahmedabad. We specialize in household shifting, office relocation, and pet care services.",
+  title: "Top shifting company in Hyderabad | About DHL Packers And Movers",
+  description: "Learn about DHL Packers And Movers, the leading transport logistics and shifting company in Hyderabad. We specialize in household shifting, office relocation, and pet care services.",
 };
 
 export default function Page() {
@@ -41,7 +41,7 @@ export default function Page() {
                             <h3 className="wow fadeInUp">who we are</h3>
                             <h2 className="text-anime-style-2" data-cursor="-opaque">Trusted Moving Experts <span>Across India</span></h2>
                             <p className="wow fadeInUp" data-wow-delay="0.2s">
-                                At Speed Ex relocation packers and movers, we are more than just a relocation company — we are your moving partners. With years of experience, a dedicated team, and a strong network across India, we provide reliable, safe, and affordable moving solutions for homes and businesses alike.
+                                At DHL Packers And Movers, we are more than just a relocation company — we are your moving partners. With years of experience, a dedicated team, and a strong network across India, we provide reliable, safe, and affordable moving solutions for homes and businesses alike.
                             </p>
                         </div>
                         {/* Section Title End */}
@@ -96,12 +96,12 @@ export default function Page() {
                         <div className="who-we-image-box-1">
                             <div className="who-we-img-1">
                                 <figure className="image-anime reveal">
-                                    <img src="/images/who-we-are-img-1.webp" alt="Speed Ex relocation packers and movers - Loading Team" />
+                                    <img src="/images/who-we-are-img-1.webp" alt="DHL Packers And Movers - Loading Team" />
                                 </figure>
                             </div>
                             <div className="who-we-img-2">
                                 <figure className="image-anime reveal">
-                                    <img src="/images/who-we-are-img-2.webp" alt="Speed Ex relocation packers and movers - Packing Material" />
+                                    <img src="/images/who-we-are-img-2.webp" alt="DHL Packers And Movers - Packing Material" />
                                 </figure>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export default function Page() {
                         {/* Contact Now Circle Start */}
                         <div className="contact-us-circle">
                             <Link href="/contact">
-                                <img src="/images/contact-us-circle-dark.svg" alt="Contact Speed Ex relocation packers and movers" />
+                                <img src="/images/contact-us-circle-dark.svg" alt="Contact DHL Packers And Movers" />
                             </Link>
                         </div>
                         {/* Contact Now Circle End */}
@@ -261,7 +261,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!</p>
+                                                <p>Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -305,7 +305,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
+                                                <p>We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -349,7 +349,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!</p>
+                                                <p>Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!</p>
                                             </div>
                                         </div>
                                     </div>

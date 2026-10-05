@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Safe Loading and Unloading Services | Transport Logistics Company",
-  description: "Reliable loading and unloading services in Ahmedabad. Speed Ex relocation movers near me ensure safe handling of heavy goods, household items, and vehicles.",
+  description: "Reliable loading and unloading services in Hyderabad. DHL Packers And Movers movers near me ensure safe handling of heavy goods, household items, and vehicles.",
 };
 
 export default function Page() {
@@ -47,7 +47,6 @@ export default function Page() {
                                 <li><Link href="/services/loading-and-unloading">Loading and Unloading</Link></li>
                                 <li><Link href="/services/packing-and-unpacking-services">Packing and Unpacking Services</Link></li>
                                 <li><Link href="/services/moving-services">Moving Services</Link></li>
-                                <li><Link href="/services/pet-relocation">Pet Relocation</Link></li>
                                 <li><Link href="/services/car-transportation">Car Transportation</Link></li>
                                 <li><Link href="/services/bike-transportation">Bike Transportation</Link></li>
                             </ul>
@@ -59,17 +58,14 @@ export default function Page() {
                             {/* Sidebar CTA Content Start */}
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
-                                <p>B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</p>
-                                <p><a href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></p>
+                                <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
+                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 
                             {/* Sidebar CTA Button Start */}
                             <div className="sidebar-cta-btn" style={{display: 'flex', flexDirection: 'column', gap: '5px'}}>
-                                <a href="tel:9624644006">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9624644006</a>
-                                <a href="tel:9211206101">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9211206101</a>
+                                <a href="tel:9390891355"><img src="/images/icon-phone.svg" alt="" />+91 93908 91355</a>
                             </div>
                             {/* Sidebar CTA Button End */}
                         </div>
@@ -83,7 +79,7 @@ export default function Page() {
                     <div className="service-single-contemt">
                         {/* Service Entry Start */}
                         <div className="service-entry">
-                            <p className="wow fadeInUp">Speed Ex relocation packers and movers offers reliable and professional Loading and Unloading Services across India. We understand that the physical handling of your assets requires extreme care, proper technique, and strong safety measures. Our team ensures that your items are systematically loaded into transit vehicles and securely unloaded at your destination—on time, every time.</p>
+                            <p className="wow fadeInUp">DHL Packers And Movers offers reliable and professional Loading and Unloading Services across India. We understand that the physical handling of your assets requires extreme care, proper technique, and strong safety measures. Our team ensures that your items are systematically loaded into transit vehicles and securely unloaded at your destination—on time, every time.</p>
                             <p className="wow fadeInUp" data-wow-delay="0.2s">Whether you’re shifting household furniture, office files and computers, or heavy industrial machinery, we provide trained labor and specialized lifting gear. From single-item loading to large-scale container unloading, we handle everything with precision.</p>
 
                             {/* Service Solution Box Start */}
@@ -315,7 +311,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!</p>
+                                                <p>Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -359,7 +355,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
+                                                <p>We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -403,7 +399,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!</p>
+                                                <p>Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!</p>
                                             </div>
                                         </div>
                                     </div>

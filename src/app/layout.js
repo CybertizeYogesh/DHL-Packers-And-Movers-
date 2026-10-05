@@ -2,9 +2,9 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  title: "Best Packers and Movers in Ahmedabad | Speed Ex Relocation",
-  description: "Speed Ex is the best packers and movers in Ahmedabad, offering top-rated household shifting services, office moving services, and vehicle moving near me. Get a free quote!",
-  keywords: "packers and movers ahmedabad, best packers and movers, household shifting services, household shifting services near me, transport logistics company, pet care services, dog pick up services, ahmedabad pet, shifting company, relocation movers near me, vehicle moving services, office moving services",
+  title: "Best Packers and Movers in Hyderabad | DHL Packers And Movers",
+  description: "DHL Packers And Movers is the Best Packers and Movers in Hyderabad, offering top-rated household shifting services, office moving services, and vehicle moving near me. Get a free quote!",
+  keywords: "packers and movers hyderabad, best packers and movers, household shifting services, household shifting services near me, transport logistics company, pet care services, dog pick up services, Hyderabad pet, shifting company, relocation movers near me, vehicle moving services, office moving services",
 };
 
 import Header from "@/components/Header";
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/css/animate.css" />
         <link rel="stylesheet" href="/css/magnific-popup.css" />
         <link rel="stylesheet" href="/css/mousecursor.css" />
-        <link rel="stylesheet" href="/css/custom.css" />
+        <link rel="stylesheet" href="/css/custom.css?v=2.3" />
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.webp" />
       </head>
       <body>
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           <div className="loading-container">
             <div className="loading"></div>
             <div id="loading-text">
-              <img src="/global-logo.webp" alt="Speed Ex Relocation" />
+              <img src="/global-logo.webp" alt="DHL Packers And Movers" />
             </div>
           </div>
         </div>

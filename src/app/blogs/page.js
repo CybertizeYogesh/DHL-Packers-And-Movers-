@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Packers and Movers Ahmedabad Shifting Guide & Blog | Speed Ex",
-  description: "Read shifting guides, packing tips, and logistics news from Speed Ex, the best packers and movers in Ahmedabad. Get advice on household shifting and office moving.",
+  title: "packers and movers hyderabad Shifting Guide & Blog | DHL Packers And Movers",
+  description: "Read shifting guides, packing tips, and logistics news from DHL Packers And Movers, the Best Packers and Movers in Hyderabad. Get advice on household shifting and office moving.",
 };
 
 export default function Page() {

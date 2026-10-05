@@ -1,1 +1,52 @@
 /* Speed Ex Global CSS */
+
+/* Services Dropdown Menu Styles - Scrolled (Sticky) & Non-Scrolled States */
+.main-menu ul.navbar-nav li.submenu ul,
+.main-menu ul ul,
+header.main-header .header-sticky .main-menu ul ul,
+header.main-header .header-sticky.active .main-menu ul ul,
+header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul {
+  background: #E5252A !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+  padding: 8px 0 !important;
+  min-width: 280px !important;
+  width: max-content !important;
+  z-index: 99999 !important;
+}
+
+/* Service item links inside dropdown - default state */
+.main-menu ul.navbar-nav li.submenu ul li a,
+.main-menu ul ul li a,
+header.main-header .header-sticky .main-menu ul ul li a,
+header.main-header .header-sticky.active .main-menu ul ul li a,
+header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul li a {
+  color: #FFFFFF !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  padding: 10px 22px !important;
+  display: block !important;
+  white-space: nowrap !important;
+  transition: all 0.2s ease-in-out !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border-left: 3px solid transparent !important;
+}
+
+/* Service item links inside dropdown - HOVER & FOCUS state (Scrolled and Non-Scrolled) */
+.main-menu ul.navbar-nav li.submenu ul li a:hover,
+.main-menu ul.navbar-nav li.submenu ul li a:focus,
+.main-menu ul ul li a:hover,
+.main-menu ul ul li a:focus,
+header.main-header .header-sticky .main-menu ul ul li a:hover,
+header.main-header .header-sticky .main-menu ul ul li a:focus,
+header.main-header .header-sticky.active .main-menu ul ul li a:hover,
+header.main-header .header-sticky.active .main-menu ul ul li a:focus,
+header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul li a:hover,
+header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul li a:focus {
+  color: #FFD000 !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  padding: 10px 22px 10px 25px !important;
+  border-left: 3px solid #FFD000 !important;
+  text-decoration: none !important;
+}

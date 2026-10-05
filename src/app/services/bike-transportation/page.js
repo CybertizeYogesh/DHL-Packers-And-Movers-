@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Bike Relocation & Vehicle Moving Services | Speed Ex Ahmedabad",
-  description: "Affordable and secure bike transportation and vehicle moving services in Ahmedabad. Trust the best packers and movers for door-to-door motorcycle shifting.",
-  keywords: "vehicle moving services, packers and movers ahmedabad, relocation movers near me, best packers and movers, transport logistics company",
+  title: "Bike Relocation & Vehicle Moving Services | DHL packers and movers hyderabad",
+  description: "Affordable and secure bike transportation and vehicle moving services in Hyderabad. Trust the best packers and movers for door-to-door motorcycle shifting.",
+  keywords: "vehicle moving services, packers and movers hyderabad, relocation movers near me, best packers and movers, transport logistics company",
 };
 
 export default function Page() {
@@ -48,7 +48,6 @@ export default function Page() {
                                 <li><Link href="/services/loading-and-unloading">Loading and Unloading</Link></li>
                                 <li><Link href="/services/packing-and-unpacking-services">Packing and Unpacking Services</Link></li>
                                 <li><Link href="/services/moving-services">Moving Services</Link></li>
-                                <li><Link href="/services/pet-relocation">Pet Relocation</Link></li>
                                 <li><Link href="/services/car-transportation">Car Transportation</Link></li>
                                 <li><Link href="/services/bike-transportation">Bike Transportation</Link></li>
                             </ul>
@@ -60,17 +59,14 @@ export default function Page() {
                             {/* Sidebar CTA Content Start */}
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
-                                <p>B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</p>
-                                <p><a href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></p>
+                                <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
+                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 
                             {/* Sidebar CTA Button Start */}
                             <div className="sidebar-cta-btn" style={{display: 'flex', flexDirection: 'column', gap: '5px'}}>
-                                <a href="tel:9624644006">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9624644006</a>
-                                <a href="tel:9211206101">
-                                    <img src="/images/icon-phone.svg" alt="" />+91 9211206101</a>
+                                <a href="tel:9390891355"><img src="/images/icon-phone.svg" alt="" />+91 93908 91355</a>
                             </div>
                             {/* Sidebar CTA Button End */}
                         </div>
@@ -84,7 +80,7 @@ export default function Page() {
                     <div className="service-single-contemt">
                         {/* Service Entry Start */}
                         <div className="service-entry">
-                            <p className="wow fadeInUp">At Speed Ex relocation packers and movers, we know your bike isn't just a vehicle—it's a part of your lifestyle. Our specialized Bike Transportation Services are designed to move your two-wheeler safely, securely, and right on schedule, whether it's across the city or across the country.</p>
+                            <p className="wow fadeInUp">At DHL Packers And Movers, we know your bike isn't just a vehicle—it's a part of your lifestyle. Our specialized Bike Transportation Services are designed to move your two-wheeler safely, securely, and right on schedule, whether it's across the city or across the country.</p>
 
                             <p className="wow fadeInUp" data-wow-delay="0.2s">From scooters to superbikes, our expert team handles every model with care. We use high-quality packing materials, custom crates, and GPS-enabled transport vehicles to ensure your bike reaches its destination in perfect condition.</p>
 
@@ -318,7 +314,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!</p>
+                                                <p>Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -362,7 +358,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
+                                                <p>We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -406,7 +402,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!</p>
+                                                <p>Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!</p>
                                             </div>
                                         </div>
                                     </div>

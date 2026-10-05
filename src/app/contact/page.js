@@ -2,8 +2,8 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact Best Packers and Movers Ahmedabad | Speed Ex Relocation",
-  description: "Contact Speed Ex Relocation for professional household shifting services near me, vehicle moving, and pet care services in Ahmedabad. Call +91 9624644006.",
+  title: "Contact Best packers and movers hyderabad | DHL Packers And Movers",
+  description: "Contact DHL Packers And Movers for professional household shifting services near me, vehicle moving, and pet care services in Hyderabad. Call +91 93908 91355.",
 };
 
 export default function Page() {
@@ -55,7 +55,7 @@ export default function Page() {
                                 </div>
                                 <div className="contact-info-content">
                                     <p>call to question</p>
-                                    <h6><a className="text-white" href="tel:9624644006">+91 9624644006</a> / <a className="text-white" href="tel:9211206101">+91 9211206101</a></h6>
+                                    <h6><a className="text-white" href="tel:9390891355">+91 93908 91355</a></h6>
                                 </div>
                             </div>
                             {/* Contact Info Item End */}
@@ -67,7 +67,7 @@ export default function Page() {
                                 </div>
                                 <div className="contact-info-content">
                                     <p>send e-mail</p>
-                                    <h6><a className="text-white" href="mailto:speedexrelocation3@gmail.com">speedexrelocation3@gmail.com</a></h6>
+                                    <h6><a className="text-white" href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></h6>
                                 </div>
                             </div>
                             {/* Contact Info Item End */}
@@ -79,7 +79,7 @@ export default function Page() {
                                 </div>
                                 <div className="contact-info-content">
                                     <p>visit anytime</p>
-                                    <h6 className="text-white">Ahmedabad Office: B 107, Bijal Business Centre, Aslali Circle, Aslali, Ahmedabad 382427</h6>
+                                    <h6 className="text-white">Hyderabad Office: 33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</h6>
                                 </div>
                             </div>
                             {/* Contact Info Item End */}
@@ -105,7 +105,7 @@ export default function Page() {
                     {/* Google Map Start */}
                     <div className="google-map-iframe">
 						
-						<iframe src="https://maps.google.com/maps?q=Bijal%20Business%20Centre,%20Aslali%20Circle,%20Aslali,%20Ahmedabad%20382427&t=&z=15&ie=UTF8&iwloc=&output=embed" style={{border: 0}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://maps.google.com/maps?q=33%2F2%2C%20Manikonda%20Rd%2C%20opposite%20K%20N%20Gupta%20Group%20Hotels%20Hotel%20Castle%2C%20Shirdi%20Sai%20Nagar%2C%20Hyderabad%2C%20Manikonda%2C%20Telangana%20500089&t=&z=15&ie=UTF8&iwloc=&output=embed" style={{border: 0}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 						
                     </div>
                     {/* Google Map End */}
@@ -154,7 +154,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Shifting my household from Ahmedabad to Bangalore was a breeze with Speed Ex relocation packers and movers. Their household shifting services are top-notch. Highly recommended!</p>
+                                                <p>Shifting my household from Hyderabad to Bangalore was a breeze with DHL Packers And Movers. Their household shifting services are top-notch. Highly recommended!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -198,7 +198,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>We shifted our entire corporate office from Ahmedabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
+                                                <p>We shifted our entire corporate office from Hyderabad to Mumbai. The coordination of their office moving services was exceptionally professional and fast.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -242,7 +242,7 @@ export default function Page() {
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <p>Used their pet relocation service to move my dog from Ahmedabad to Chennai. The custom pet travel crates and care were amazing. Highly recommend!</p>
+                                                <p>Used their vehicle transportation service to move my bike from Hyderabad to Bangalore. The safe packing and timely delivery were amazing. Highly recommend!</p>
                                             </div>
                                         </div>
                                     </div>
