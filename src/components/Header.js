@@ -9,7 +9,7 @@ export default function Header() {
           <div className="top-header-content d-flex align-items-center justify-content-lg-between justify-content-center flex-wrap flex-lg-nowrap">
             <div className="top-contact-item top-contact-address d-flex align-items-center justify-content-center text-center text-lg-start">
               <i className="fas fa-map-marker-alt me-2 text-white flex-shrink-0"></i>
-              <span className="text-white">33/2, Manikonda Rd, Shirdi Sai Nagar, Hyderabad, Telangana 500089</span>
+              <span className="text-white">Pan-India Services</span>
             </div>
             <div className="top-contact-group d-flex align-items-center justify-content-center flex-wrap flex-sm-nowrap">
               <div className="top-contact-item d-flex align-items-center justify-content-center px-2">
