@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CertificateSection from "@/components/CertificateSection";
 
 export const metadata = {
   title: "Top shifting company in Hyderabad | About DHL Packers And Movers",
@@ -137,7 +138,9 @@ export default function Page() {
     </div>
     {/* Who We Are Section End */}
 
-
+    {/* Certifications Section Start */}
+    <CertificateSection />
+    {/* Certifications Section End */}
 
     {/* Our Work Process Section Start */}
     <div className="our-work-process dark-section">

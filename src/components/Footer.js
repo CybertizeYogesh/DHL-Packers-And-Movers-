@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="about-footer">
                 {/* Footer Logo Start */}
                 <div className="footer-logo">
-                  <img src="/global-logo.webp" alt="DHL Packers And Movers Logo" />
+                  <img src="/DHL-logo-black.svg" alt="DHL Packers And Movers Logo" />
                 </div>
                 {/* Footer Logo End */}
 
@@ -82,7 +82,7 @@ export default function Footer() {
                     <img src="/images/icon-mail.svg" alt="Mail Icon" />
                   </div>
                   <div className="footer-contact-content">
-                    <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
+                    <p><a href="mailto:info@durgahomelogistics.com">info@durgahomelogistics.com</a></p>
                   </div>
                 </div>
                 {/* Footer Contact Item End */}

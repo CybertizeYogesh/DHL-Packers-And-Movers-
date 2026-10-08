@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           <div className="loading-container">
             <div className="loading"></div>
             <div id="loading-text">
-              <img src="/global-logo.webp" alt="DHL Packers And Movers" />
+              <img src="/DHL-logo-black.svg" alt="DHL Packers And Movers" />
             </div>
           </div>
         </div>

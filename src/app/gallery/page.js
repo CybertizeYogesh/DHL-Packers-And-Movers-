@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Our Shifting & Logistics Gallery | DHL packers and movers hyderabad",
+  title: "Our Shifting & Logistics Gallery | DHL Packers And Movers Hyderabad",
   description: "Browse photos of our household shifting, vehicle moving services, dog pick up services, and office relocation operations in Hyderabad.",
 };
 

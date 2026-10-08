@@ -56,7 +56,7 @@ export default function Page() {
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
                                 <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
-                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
+                                <p><a href="mailto:info@durgahomelogistics.com">info@durgahomelogistics.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 

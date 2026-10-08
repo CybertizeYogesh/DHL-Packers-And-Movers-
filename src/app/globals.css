@@ -1,4 +1,4 @@
-/* Speed Ex Global CSS */
+/* DHL Packers And Movers Global CSS */
 
 /* Services Dropdown Menu Styles - Scrolled (Sticky) & Non-Scrolled States */
 .main-menu ul.navbar-nav li.submenu ul,
@@ -49,4 +49,358 @@ header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul 
   padding: 10px 22px 10px 25px !important;
   border-left: 3px solid #FFD000 !important;
   text-decoration: none !important;
+}
+
+/* ==========================================================================
+   Certifications Section & Modal Lightbox Styles
+   ========================================================================== */
+.our-certifications-section {
+  padding: 95px 0;
+  background-color: #F8F9FB;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.cert-download-btn {
+  padding-right: 24px !important;
+}
+
+.cert-download-btn::before {
+  display: none !important;
+}
+
+.cert-card-outer {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.cert-card-frame {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card-frame:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.12);
+}
+
+.cert-verified-pill {
+  position: absolute;
+  top: -14px;
+  left: 20px;
+  background: #059669;
+  color: #FFFFFF;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.35);
+  z-index: 2;
+  letter-spacing: 0.3px;
+}
+
+.cert-img-wrapper {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #F3F4F6;
+  border: 1px solid #E5E7EB;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.cert-display-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.cert-hover-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cert-img-wrapper:hover .cert-hover-overlay,
+.cert-img-wrapper:focus .cert-hover-overlay {
+  opacity: 1;
+}
+
+.cert-img-wrapper:hover .cert-display-img {
+  transform: scale(1.03);
+}
+
+.cert-zoom-btn {
+  background: #E5252A;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 13.5px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 6px 16px rgba(229, 37, 42, 0.4);
+  transform: translateY(6px);
+  transition: transform 0.3s ease;
+}
+
+.cert-img-wrapper:hover .cert-zoom-btn {
+  transform: translateY(0);
+}
+
+.cert-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+  padding: 10px 8px 4px;
+  border-top: 1px solid #F3F4F6;
+}
+
+.cert-meta-label {
+  font-size: 11.5px;
+  color: #6B7280;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cert-meta-value {
+  font-size: 14px;
+  color: #111827;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.cert-btn-enlarge {
+  background: #F3F4F6;
+  border: none;
+  border-radius: 8px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4B5563;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cert-btn-enlarge:hover {
+  background: #E5252A;
+  color: #FFFFFF;
+}
+
+.cert-badge-tag {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(229, 37, 42, 0.08);
+  color: #E5252A;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  border: 1px solid rgba(229, 37, 42, 0.15);
+}
+
+.cert-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.35;
+  margin-bottom: 14px;
+}
+
+.cert-description {
+  color: #565969;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.cert-spec-box {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.25s ease;
+  height: 100%;
+}
+
+.cert-spec-box:hover {
+  border-color: #E5252A;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+}
+
+.cert-spec-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(229, 37, 42, 0.08);
+  color: #E5252A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+.cert-spec-box h4 {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #6B7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 2px;
+}
+
+.cert-spec-box p {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.cert-checkpoints {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cert-check-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #4B5563;
+}
+
+.cert-check-item i {
+  color: #E5252A;
+  margin-top: 3px;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+/* Modal Lightbox */
+.cert-lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: certFadeIn 0.2s ease;
+}
+
+@keyframes certFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.cert-lightbox-container {
+  background: #111827;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 860px;
+  width: 100%;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  animation: certSlideUp 0.25s ease;
+}
+
+@keyframes certSlideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.cert-lightbox-header {
+  padding: 14px 20px;
+  background: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cert-lightbox-action-btn {
+  background: #E5252A;
+  color: #FFFFFF !important;
+  padding: 7px 15px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.cert-lightbox-action-btn:hover {
+  background: #B91C1C;
+}
+
+.cert-lightbox-close {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #D1D5DB;
+  font-size: 24px;
+  line-height: 1;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cert-lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+}
+
+.cert-lightbox-body {
+  padding: 20px;
+  overflow-y: auto;
+  text-align: center;
+  background: #0B0F19;
+}
+
+.cert-lightbox-img {
+  max-height: 74vh;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  background: #FFFFFF;
 }

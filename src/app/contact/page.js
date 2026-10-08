@@ -67,7 +67,7 @@ export default function Page() {
                                 </div>
                                 <div className="contact-info-content">
                                     <p>send e-mail</p>
-                                    <h6><a className="text-white" href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></h6>
+                                    <h6><a className="text-white" href="mailto:info@durgahomelogistics.com">info@durgahomelogistics.com</a></h6>
                                 </div>
                             </div>
                             {/* Contact Info Item End */}

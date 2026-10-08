@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Bike Relocation & Vehicle Moving Services | DHL packers and movers hyderabad",
+  title: "Bike Relocation & Vehicle Moving Services | DHL Packers And Movers Hyderabad",
   description: "Affordable and secure bike transportation and vehicle moving services in Hyderabad. Trust the best packers and movers for door-to-door motorcycle shifting.",
   keywords: "vehicle moving services, packers and movers hyderabad, relocation movers near me, best packers and movers, transport logistics company",
 };
@@ -60,7 +60,7 @@ export default function Page() {
                             <div className="sidebar-cta-content">
                                 <h3>How can we help?</h3>
                                 <p>33/2, Manikonda Rd, opposite K N Gupta Group Hotels Hotel Castle, Shirdi Sai Nagar, Hyderabad, Manikonda, Telangana 500089</p>
-                                <p><a href="mailto:info@durgahomelogisticsdomain.com">info@durgahomelogisticsdomain.com</a></p>
+                                <p><a href="mailto:info@durgahomelogistics.com">info@durgahomelogistics.com</a></p>
                             </div>
                             {/* Sidebar CTA Content End */}
 

@@ -18,7 +18,7 @@ export default function Header() {
               </div>
               <div className="top-contact-item d-flex align-items-center justify-content-center px-2">
                 <i className="fas fa-envelope me-2 text-white flex-shrink-0"></i>
-                <a href="mailto:info@durgahomelogisticsdomain.com" className="text-decoration-none text-white text-nowrap">info@durgahomelogisticsdomain.com</a>
+                <a href="mailto:info@durgahomelogistics.com" className="text-decoration-none text-white text-nowrap">info@durgahomelogistics.com</a>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Header() {
             <div className="container">
               {/* Logo Start */}
               <Link className="navbar-brand" href="/">
-                <img src="/global-logo.webp" style={{ maxWidth: "300px", height: "auto" }} alt="Logo" />
+                <img src="/DHL-logo-black.svg" style={{ width: "300px", maxWidth: "100%", height: "auto" }} alt="DHL Packers And Movers" />
               </Link>
               {/* Logo End */}
 
