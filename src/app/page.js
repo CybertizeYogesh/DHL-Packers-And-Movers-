@@ -27,7 +27,12 @@ export default function Home() {
                     <h1 className="text-anime-style-2" data-cursor="-opaque">
                       Effortless moving <span>experiences</span>
                     </h1>
-                    <p className="wow fadeInUp">Best Packers and Movers in Hyderabad</p>
+                    <h2 className="hero-subtitle wow fadeInUp">
+                      DHL A Unit Home Logistics
+                    </h2>
+                    <p className="hero-tagline wow fadeInUp">
+                      Best Packers and Movers in All India
+                    </p>
                   </div>
                   {/* Section Title End */}
                 </div>

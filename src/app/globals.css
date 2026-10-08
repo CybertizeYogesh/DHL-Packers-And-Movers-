@@ -51,6 +51,268 @@ header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul 
   text-decoration: none !important;
 }
 
+.footer-logo img {
+  background-color: #E5252A !important;
+  padding: 10px 18px !important;
+  border-radius: 14px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;
+  max-width: 280px !important;
+  display: inline-block !important;
+}
+
+/* Top Bar Styling - Yellow Background and Black Text */
+.top-header {
+  background-color: var(--primary-color, #FFD000) !important;
+  color: #000000 !important;
+}
+
+.top-header,
+.top-header span,
+.top-header a,
+.top-header i {
+  color: #000000 !important;
+}
+
+.top-header a:hover {
+  color: #222222 !important;
+  text-decoration: underline !important;
+}
+
+/* Mobile & Small Screen Top Bar: Single Line (Pan-India | Phone | info@durgahomelogistics.com) */
+@media only screen and (max-width: 991px) {
+  .top-header {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+  .top-header::-webkit-scrollbar {
+    display: none !important;
+  }
+  .top-header .container-fluid {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .top-header .top-header-content {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 6px !important;
+  }
+  .top-header .top-contact-group {
+    display: contents !important;
+  }
+  .top-header .top-contact-item {
+    display: inline-flex !important;
+    align-items: center !important;
+    font-size: 11px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    padding: 0 !important;
+  }
+  .top-header .top-contact-item i {
+    font-size: 10px !important;
+    margin-right: 3px !important;
+  }
+  .top-header .top-contact-address {
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+  .top-header .top-contact-phone {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .top-header .top-contact-email {
+    justify-content: flex-end !important;
+    text-align: right !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .top-header .container-fluid {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+  .top-header .top-header-content {
+    gap: 4px !important;
+  }
+  .top-header .top-contact-item {
+    font-size: 9.5px !important;
+  }
+  .top-header .top-contact-item i {
+    font-size: 8.5px !important;
+    margin-right: 2px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .top-header .top-contact-item {
+    font-size: 8.8px !important;
+    letter-spacing: -0.15px !important;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .top-header .top-contact-item {
+    font-size: 8px !important;
+    letter-spacing: -0.25px !important;
+  }
+}
+
+/* Hero Section 3-tier Title Hierarchy */
+.hero-content .section-title h1 {
+  margin-bottom: 6px !important;
+}
+
+.hero-content .section-title .hero-subtitle {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  color: var(--white-color, #ffffff) !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.hero-content .section-title .hero-tagline {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: var(--white-color, #ffffff) !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.35 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-content .section-title .hero-subtitle {
+    font-size: 25px !important;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+  }
+  .hero-content .section-title .hero-tagline {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-content .section-title .hero-subtitle {
+    font-size: 20px !important;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    text-align: left !important;
+  }
+  .hero-content .section-title .hero-tagline {
+    font-size: 16px !important;
+    text-align: left !important;
+  }
+}
+
+/* Header Logo Toggle: Default in Hero/Header section, New Logo in Sticky Navbar */
+.navbar-brand .header-logo-sticky {
+  display: none !important;
+}
+
+.navbar-brand .header-logo-default {
+  display: inline-block !important;
+}
+
+.header-sticky.active .navbar-brand .header-logo-default {
+  display: none !important;
+}
+
+.header-sticky.active .navbar-brand .header-logo-sticky {
+  display: inline-block !important;
+}
+
+/* ==========================================================================
+   Sticky Navbar Custom Styling (Active on Scroll Only)
+   ========================================================================== */
+
+/* 1. Sticky Navbar Background: Red */
+header.main-header .header-sticky.active {
+  background-color: var(--accent-color, #E5252A) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* 2. Sticky Navbar Menu Links: White Text (changed from black #111827) */
+header.main-header .header-sticky.active .main-menu ul#menu > li > a,
+header.main-header .header-sticky.active .main-menu .nav-menu-wrapper > ul > li > a {
+  color: #FFFFFF !important;
+  font-weight: 500 !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+/* 3. Sticky Navbar Menu Links Hover: Yellow */
+header.main-header .header-sticky.active .main-menu ul#menu > li > a:hover,
+header.main-header .header-sticky.active .main-menu ul#menu > li > a:focus,
+header.main-header .header-sticky.active .main-menu .nav-menu-wrapper > ul > li > a:hover,
+header.main-header .header-sticky.active .main-menu .nav-menu-wrapper > ul > li > a:focus {
+  color: #FFD000 !important;
+}
+
+/* 4. Sticky Navbar Submenu Arrow/Caret: White (changed from black #111827) */
+header.main-header .header-sticky.active .main-menu ul#menu > li.submenu > a:after,
+header.main-header .header-sticky.active .main-menu .nav-menu-wrapper > ul > li.submenu > a:after {
+  color: #FFFFFF !important;
+}
+
+header.main-header .header-sticky.active .main-menu ul#menu > li.submenu > a:hover:after,
+header.main-header .header-sticky.active .main-menu .nav-menu-wrapper > ul > li.submenu > a:hover:after {
+  color: #FFD000 !important;
+}
+
+/* 5. Sticky Navbar Button: Yellow Background, Black Text */
+.header-sticky.active .header-btn .btn-default,
+.header-sticky.active .header-btn .btn-highlighted {
+  background: #FFD000 !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  border-radius: 12px !important;
+  border: 2px solid transparent !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+/* 6. Sticky Navbar Button Arrow: Black */
+.header-sticky.active .header-btn .btn-default::before,
+.header-sticky.active .header-btn .btn-highlighted::before {
+  background-image: url('/images/arrow-black.svg') !important;
+  filter: none !important;
+}
+
+/* 7. Sticky Navbar Button Hover: Invert to Black with White Text & White Arrow */
+.header-sticky.active .header-btn .btn-default::after,
+.header-sticky.active .header-btn .btn-highlighted::after {
+  background: #000000 !important;
+}
+
+.header-sticky.active .header-btn .btn-default:hover,
+.header-sticky.active .header-btn .btn-highlighted:hover {
+  color: #FFFFFF !important;
+  background: #000000 !important;
+}
+
+.header-sticky.active .header-btn .btn-default:hover::before,
+.header-sticky.active .header-btn .btn-highlighted:hover::before {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* 8. Sticky Navbar Mobile Toggle (when scrolled) */
+.header-sticky.active .navbar-toggle .slicknav_btn {
+  background: #FFD000 !important;
+}
+
+.header-sticky.active .navbar-toggle .slicknav_icon .slicknav_icon-bar {
+  background-color: #000000 !important;
+}
+
+
 /* ==========================================================================
    Certifications Showcase & Modal Lightbox Styles
    ========================================================================== */
@@ -69,6 +331,50 @@ header.main-header .header-sticky.active .main-menu ul.navbar-nav li.submenu ul 
     margin-top: 50px;
     padding: 30px 20px;
     border-radius: 20px;
+  }
+}
+
+/* About Us Image Styling for High-Res Landscape Team Photo */
+.about-us-image {
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.about-us-image figure {
+  margin: 0;
+  border-radius: 28px;
+  overflow: hidden;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.about-us-image img {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1536 / 1024 !important;
+  object-fit: cover !important;
+  display: block !important;
+  border-radius: 28px !important;
+}
+
+/* Yellow DHL Truck Shape on Section Divider */
+.about-us::before {
+  width: 370px !important;
+  height: 230px !important;
+}
+
+@media (max-width: 991px) {
+  .about-us::before {
+    width: 220px !important;
+    height: 136px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us::before {
+    width: 170px !important;
+    height: 105px !important;
   }
 }
 

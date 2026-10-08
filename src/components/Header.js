@@ -4,21 +4,24 @@ export default function Header() {
   return (
     <>
       {/* Top Contact Header Start */}
-      <div className="top-header py-2 text-white" style={{ backgroundColor: "var(--accent-color)" }}>
-        <div className="container-fluid px-lg-5 px-3">
+      <div className="top-header py-2 text-dark" style={{ backgroundColor: "var(--primary-color, #FFD000)", color: "#000000" }}>
+        <div className="container-fluid px-lg-5 px-2 px-sm-3">
           <div className="top-header-content d-flex align-items-center justify-content-lg-between justify-content-center flex-wrap flex-lg-nowrap">
             <div className="top-contact-item top-contact-address d-flex align-items-center justify-content-center text-center text-lg-start">
-              <i className="fas fa-map-marker-alt me-2 text-white flex-shrink-0"></i>
-              <span className="text-white">Pan-India Services</span>
+              <i className="fas fa-map-marker-alt me-1 me-sm-2 text-dark flex-shrink-0"></i>
+              <span className="text-dark fw-medium text-nowrap">
+                <span className="d-none d-sm-inline">Pan-India Services</span>
+                <span className="d-inline d-sm-none">Pan India</span>
+              </span>
             </div>
             <div className="top-contact-group d-flex align-items-center justify-content-center flex-wrap flex-sm-nowrap">
-              <div className="top-contact-item d-flex align-items-center justify-content-center px-2">
-                <i className="fas fa-phone-alt me-2 text-white flex-shrink-0"></i>
-                <a href="tel:9390891355" className="text-decoration-none text-white text-nowrap">+91 93908 91355</a>
+              <div className="top-contact-item top-contact-phone d-flex align-items-center justify-content-center px-1 px-sm-2">
+                <i className="fas fa-phone-alt me-1 me-sm-2 text-dark flex-shrink-0"></i>
+                <a href="tel:9390891355" className="text-decoration-none text-dark fw-medium text-nowrap">+91 93908 91355</a>
               </div>
-              <div className="top-contact-item d-flex align-items-center justify-content-center px-2">
-                <i className="fas fa-envelope me-2 text-white flex-shrink-0"></i>
-                <a href="mailto:info@durgahomelogistics.com" className="text-decoration-none text-white text-nowrap">info@durgahomelogistics.com</a>
+              <div className="top-contact-item top-contact-email d-flex align-items-center justify-content-center px-1 px-sm-2">
+                <i className="fas fa-envelope me-1 me-sm-2 text-dark flex-shrink-0"></i>
+                <a href="mailto:info@durgahomelogistics.com" className="text-decoration-none text-dark fw-medium text-nowrap">info@durgahomelogistics.com</a>
               </div>
             </div>
           </div>
@@ -33,7 +36,18 @@ export default function Header() {
             <div className="container">
               {/* Logo Start */}
               <Link className="navbar-brand" href="/">
-                <img src="/DHL-logo-black.svg" style={{ width: "300px", maxWidth: "100%", height: "auto" }} alt="DHL Packers And Movers" />
+                <img
+                  className="header-logo-default"
+                  src="/images/dhl-logo.webp"
+                  style={{ width: "300px", maxWidth: "100%", height: "auto" }}
+                  alt="DHL Packers And Movers"
+                />
+                <img
+                  className="header-logo-sticky"
+                  src="/images/dhl-logo-sticky.webp"
+                  style={{ width: "300px", maxWidth: "100%", height: "auto" }}
+                  alt="DHL Packers And Movers"
+                />
               </Link>
               {/* Logo End */}
 

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       {/* Footer Main Start */}
-      <footer className="main-footer">
+      <footer className="main-footer" id="footer">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -12,7 +12,17 @@ export default function Footer() {
               <div className="about-footer">
                 {/* Footer Logo Start */}
                 <div className="footer-logo">
-                  <img src="/DHL-logo-black.svg" alt="DHL Packers And Movers Logo" />
+                  <img
+                    src="/images/dhl-logo-sticky.webp"
+                    alt="DHL Packers And Movers Logo"
+                    style={{
+                      background: "#E5252A",
+                      padding: "10px 18px",
+                      borderRadius: "14px",
+                      boxShadow: "0 6px 20px rgba(0, 0, 0, 0.15)",
+                      maxWidth: "280px",
+                    }}
+                  />
                 </div>
                 {/* Footer Logo End */}
 
