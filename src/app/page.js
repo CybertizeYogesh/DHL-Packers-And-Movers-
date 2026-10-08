@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CertificateSection from "@/components/CertificateSection";
 
 export default function Home() {
   return (
@@ -91,7 +92,7 @@ export default function Home() {
       {/* Hero Section End */}
 
       {/* About Us Section Start */}
-      <div className="about-us">
+      <div className="about-us" id="about-us">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-1 order-2">
@@ -100,6 +101,16 @@ export default function Home() {
                 <figure className="image-anime reveal">
                   <img src="/images/about-image.webp" alt="About DHL Packers And Movers" />
                 </figure>
+                {/* Floating Verified Badge */}
+                <div className="about-cert-badge-floating">
+                  <div className="cert-float-icon">
+                    <i className="fa-solid fa-award"></i>
+                  </div>
+                  <div className="cert-float-text">
+                    <span className="badge-tag">Govt. MSME Verified</span>
+                    <span className="badge-num">UDYAM-TS-02-0123867</span>
+                  </div>
+                </div>
               </div>
               {/* About Us Image End */}
             </div>
@@ -152,6 +163,9 @@ export default function Home() {
               {/* About Us Content End */}
             </div>
           </div>
+
+          {/* Official Government Certification Showcase */}
+          <CertificateSection />
         </div>
       </div>
       {/* About Us Section End */}

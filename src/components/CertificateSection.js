@@ -22,10 +22,9 @@ export default function CertificateSection() {
 
   return (
     <>
-      <section className="our-certifications-section">
-        <div className="container">
-          {/* Section Header */}
-          <div className="row align-items-end mb-5">
+      <div className="home-about-cert-showcase" id="govt-certification">
+        {/* Section Header */}
+        <div className="row align-items-end mb-4 mb-md-5">
             <div className="col-lg-8">
               <div className="section-title mb-0">
                 <h3 style={{ textTransform: "uppercase", letterSpacing: "1px" }}>official certification</h3>
@@ -194,7 +193,6 @@ export default function CertificateSection() {
             </div>
           </div>
         </div>
-      </section>
 
       {/* Lightbox Modal */}
       {isOpen && (
